@@ -1,0 +1,58 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.dictionary-container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#word-input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #555;
+}
+
+#suggestions {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#suggestions li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+#suggestions li:hover {
+    background-color: #f1f1f1;
+}
