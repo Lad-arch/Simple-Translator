@@ -23,8 +23,7 @@ Project Structure
 ├── index.html   # Main HTML structure
 ├── script.js    # Dictionary logic and interactivity
 └── style.css    # Styling and layout
-________________________________________
-🚀 How to Use
+________________________________________How to Use
 1.	Clone or download this repository
 2.	Open index.html in any modern web browser
 3.	Start typing a word in the input field
